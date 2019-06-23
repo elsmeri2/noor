@@ -60,7 +60,7 @@ client.on('ready', function(){
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// Code Send The Help In DMS // Code By Abdelrhman Elsmeri
     let pages = [`**
-        **General commands - اوامر عامة**
+        ***__General commands - اوامر عامة__***
 **
 ${prefix}allbots/لعرض جميع البوتات الي بالسيرفر
 ${prefix}server/يعرض لك معلومات عن السيرفر
